@@ -1,3 +1,16 @@
 button {
     cursor: pointer;
 }
+.btn {
+    border-radius: 45px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: $spacer/2.5 $spacer*1.5;
+}
+.btn-light {
+    background-color: #fff;
+    color: $primary;
+}
+.btn-secondary {
+    color: #fff;
+}

@@ -1,36 +1,29 @@
-/* Sections */
+.hero-section {
+    .container {
+        min-height: $spacer*24;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
 
-.section {
-    position: relative;
+.title-overlay {
     width: 100%;
-    padding: 4rem 0;
-    color: inherit;
-    background-position: center bottom;
-    background-size: cover;
-    background-repeat: no-repeat;
-    overflow: hidden;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, .8);
+    z-index: 1;
+}
 
-    &.bg-pos--top-center {
-        background-position: top center;
+.mobile-gutter-fix {
+    @include media-breakpoint-down(lg) {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
     }
+}
 
-    &.section--sm {
-        padding: 3rem 0;
-    }
+.profile-img {
+    max-width: 274px;
 
-    &.section--lg {
-        padding: 6rem 0;
-    }
-
-    @include media-breakpoint-down(md) {
-        padding: 2.5rem 0;
-
-        &.section--sm {
-            padding: 2rem 0;
-        }
-
-        &.section--lg {
-            padding: 4rem 0;
-        }
-    }
 }
