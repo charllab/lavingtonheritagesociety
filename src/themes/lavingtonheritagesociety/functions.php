@@ -45,6 +45,7 @@ if (!function_exists('custom_after_setup_theme')) {
         // Style Gutenberg
         add_theme_support('editor-styles');
         add_editor_style('style-editor.css');
+        add_image_size( 'profile', 548, 548, true );
     }
 }
 

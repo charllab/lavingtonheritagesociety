@@ -5,6 +5,9 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        h2 {
+            text-shadow: 2px 3px 5px rgba(0,0,0,0.25);
+        }
     }
 }
 
@@ -16,6 +19,12 @@
     z-index: 1;
 }
 
+.profile-img {
+    border: 4px solid white;
+    max-width: 320px;
+    width: 100%;
+}
+
 .mobile-gutter-fix {
     @include media-breakpoint-down(lg) {
         padding-left: 15px !important;
@@ -23,7 +32,19 @@
     }
 }
 
-.profile-img {
-    max-width: 274px;
-
+.flowers-section {
+    .container {
+        min-height: $spacer*12;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
+
+.project-block:nth-of-type(odd) {
+    .project__image-col {
+        order: 1;
+    }
+}
+

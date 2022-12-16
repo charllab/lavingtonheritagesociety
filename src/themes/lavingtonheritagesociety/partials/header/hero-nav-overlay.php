@@ -1,6 +1,6 @@
 <header id="header" class="hero-nav-overlay">
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary px-0">
+    <nav class="navbar navbar-expand-md navbar-dark bg-secondary px-50 px-md-0">
         <div class="container">
             <div class="nav-logo">
                 <a href="<?php echo esc_url(home_url('/')); ?>">
@@ -15,12 +15,12 @@
                 <i class="fas fa-bars"></i>
             </button>
 
-            <div class="mainnav-m collapse navbar-collapse d-lg-flex flex-lg-column">
+            <div class="mainnav-m collapse navbar-collapse d-md-flex flex-md-column">
                 <?php wp_nav_menu([
                     'theme_location' => 'primary',
-                    'container_class' => 'ml-lg-auto',
+                    'container_class' => 'ml-md-auto',
                     'container_id' => 'mainnav',
-                    'menu_class' => 'navbar-nav ml-lg-auto',
+                    'menu_class' => 'navbar-nav ml-md-auto',
                     'fallback_cb' => '',
                     'menu_id' => 'main-menu',
                     'walker' => new understrap_WP_Bootstrap_Navwalker(),

@@ -1,11 +1,11 @@
 <footer>
     <section class="py-2 bg-secondary">
-        <div class="container">
+        <div class="container text-center text-lg-left">
             <div class="row justify-content-around text-white">
-                <div class="col-lg-3">
+                <div class="col-lg-3 px-4 px-md-0">
                     <img src="<?php bloginfo('template_url'); ?>/images/logo.svg"
                          alt="<?php bloginfo('name'); ?> - Logo"
-                         class="img-fluid">
+                         class="img-fluid d-block mx-auto mb-150 mb-lg-0">
                 </div><!-- col -->
                 <div class="col-lg-4">
                     <p> We are an Associate of the Greater Vernon Museum & Archives Society and we gratefully
@@ -18,11 +18,11 @@
                 </div>
                 <div class="col-lg-3">
                     <p>
-                        Email<br>
+                        <b>Email</b><br>
                         info@clhsbc.org
                     </p>
                     <p>
-                        B.C. Society Incorporation No.<br>
+                        <b>B.C. Society Incorporation No.</b><br>
                         S0071573
                     </p>
                     <p>
