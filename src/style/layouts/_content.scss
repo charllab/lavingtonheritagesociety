@@ -105,7 +105,26 @@
     }
 }
 
+.mfp-bottom-bar {
+    background-color: rgba(black, .85);
+    top: 92%;
+    padding: 10px 15px;
+}
+
 .mfp-title {
-    font-size: 80%;
-    line-height: 1.6;
+    line-height: 1.5;
+    color: $yellow;
+    font-weight: bold;
+}
+
+.mfp-counter {
+    top: 29%;
+    right: 15px;
+}
+
+button.mfp-arrow {
+    @include media-breakpoint-down(sm) {
+        background-color: rgba(black, .35);
+        border: 2px solid white;
+    }
 }

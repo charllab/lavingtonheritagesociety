@@ -82,6 +82,10 @@
     }
 }
 
+#header {
+    position: relative;
+    z-index: 999;
+}
 
 #scrollingNav {
     opacity: 0;
