@@ -1,10 +1,26 @@
 jQuery(function () {
 
+    // Lightbox gallery
+    jQuery('.js-gallery').magnificPopup({
+        delegate: 'a',
+        type: 'image',
+        gallery: {
+            enabled: true
+        }
+    });
 
-    $('').ma
-
-    // Auto target _blank external links
-    targetBlankExternalLinks();
+    // ie11 object-fit fallback
+    if (!Modernizr.objectfit || !Modernizr.smil) {
+        $('.js-img-obj-fit__container').each(function () {
+            var $container = $(this),
+                imgUrl = $container.find('img').prop('src');
+            if (imgUrl) {
+                $container
+                    .css('backgroundImage', 'url(' + imgUrl + ')')
+                    .addClass('compat-object-fit');
+            }
+        });
+    }
 
     // Remove WP Block element iframe classes
     if (jQuery('.wp-block-embed-youtube').length) {
