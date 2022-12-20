@@ -76,3 +76,29 @@ var targetBlankExternalLinks = function () {
             jQuery(this).attr('target', '_blank');
         });
 };
+
+// gsap code
+
+function initNavigation() {
+    ScrollTrigger.create({
+        // start on scrolling a 100px down
+        start:250,
+        endTrigger: 'footer',
+        toggleClass: {
+            targets: 'body',
+            className: 'has-scrolled'
+        },
+        markers: false
+    });
+}
+
+function init(){
+
+    // start here
+    initNavigation();
+
+}
+
+window.addEventListener('load', function(){
+    init();
+});

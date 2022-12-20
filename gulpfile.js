@@ -71,7 +71,9 @@ const headerJS = [
     'node_modules/selectize/dist/js/standalone/selectize.min.js',
     'node_modules/aos/dist/aos.js',
     'src/js/modernizr.custom.js',
-    'node_modules/owl.carousel/dist/owl.carousel.min.js'
+    'node_modules/owl.carousel/dist/owl.carousel.min.js',
+    'src/js/ScrollTrigger.min.js',
+    'src/js/gsap.min.js'
 ];
 
 const footerJS = [
