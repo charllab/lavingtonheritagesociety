@@ -11,6 +11,7 @@ $button = $hero['banner_button']; ?>
             <h2 class="display-4 ff-lobster text-white mb-1 mb-lg-150"><?php echo esc_attr($hero['banner_heading']); ?></h2>
             <?php if ($button['button_link']) : ?>
                 <a href="<?php echo esc_attr($button['button_link']); ?>"
+                   target="_blank"
                    class="btn btn-light"><?php echo esc_attr($button['button_label']); ?></a>
             <?php endif; ?>
         </div><!-- container -->

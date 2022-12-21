@@ -1,7 +1,7 @@
 <footer>
     <section class="flowers-section"
-        <?php if (get_field('footer_image','options')) : ?>
-            style="background-image: url(<?php the_field('footer_image','options');?>); background-size: cover;"
+        <?php if (get_field('footer_image', 'options')) : ?>
+            style="background-image: url(<?php the_field('footer_image', 'options'); ?>); background-size: cover;"
         <?php endif; ?>
     >
     </section>
@@ -14,23 +14,28 @@
                          class="img-fluid d-block mx-auto mb-150 mb-lg-0">
                 </div><!-- col -->
                 <div class="col-lg-4">
-                    <p> <?php the_field('footer_message', 'options');?>
+                    <p> <?php the_field('footer_message', 'options'); ?>
                     </p>
                 </div>
                 <div class="col-lg-3">
                     <p>
                         <b>Email</b><br>
-                        <a href="mailto:<?php echo the_field('email', 'options');?>" title="Email <?php echo get_bloginfo('name');?>"><?php echo the_field('email', 'options');?></a>
+                        <a href="mailto:<?php echo the_field('email', 'options'); ?>"
+                           title="Email <?php echo get_bloginfo('name'); ?>"><?php echo the_field('email', 'options'); ?></a>
                     </p>
                     <p>
                         <b>B.C. Society Incorporation No.</b><br>
-                        <?php echo the_field('bc_society_incorporation_no', 'options');?>
+                        <?php echo the_field('bc_society_incorporation_no', 'options'); ?>
                     </p>
                     <p>
                         CRA Registered Charity No.<br>
-                        <?php echo the_field('cra_registered_charity_no', 'options');?>
+                        <?php echo the_field('cra_registered_charity_no', 'options'); ?>
                     </p>
-                    <a href="#" class="btn btn-light">Donate Now</a>
+                    <a href="<?php echo the_field('footer_button_link', 'options'); ?>"
+                       target="_blank"
+                       class="btn btn-light">
+                        <?php echo the_field('footer_button_label', 'options'); ?>
+                    </a>
                 </div>
             </div><!-- row -->
         </div><!-- container -->
