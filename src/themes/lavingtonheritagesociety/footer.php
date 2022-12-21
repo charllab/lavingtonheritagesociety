@@ -47,7 +47,7 @@
                     <p class="small">&copy; <?php echo Date('Y') . ' ' . get_bloginfo('name'); ?></p>
                 </div>
                 <div class="col-lg-4 text-center">
-                    <p class="small"><a href="<?php echo esc_url(home_url('/')); ?>">Privacy Policy and Terms of Use</a></p>
+                    <p class="small"><a href="<?php echo esc_url(home_url('/privacy-policy')); ?>">Privacy Policy and Terms of Use</a></p>
                 </div>
                 <div class="col-lg-4 text-center text-lg-right">
                     <p class="small">Designed, Developed and Hosted by <a href="https://sproing.ca" target="_blank">Sproing&nbsp;Creative</a>
