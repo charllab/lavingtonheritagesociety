@@ -66,6 +66,9 @@ mark {
 .bg-white {
 	background-color: $white;
 }
+.bg-yellow {
+    background-color: $yellow;
+}
 
 // Containers
 @include media-breakpoint-down(lg) {

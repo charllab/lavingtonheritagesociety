@@ -5,7 +5,7 @@
         <?php endif; ?>
     >
     </section>
-    <section class="py-2 bg-secondary">
+    <section class="py-2 bg-white">
         <div class="container text-center text-lg-left">
             <div class="row justify-content-around text-primary">
                 <div class="col-lg-3 px-4 px-md-0">
@@ -40,7 +40,7 @@
             </div><!-- row -->
         </div><!-- container -->
     </section>
-    <section class="pt-1">
+    <section class="pt-1 bg-yellow">
         <div class="container">
             <div class="row text-dark">
                 <div class="col-lg-4 text-center text-lg-left">

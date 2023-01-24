@@ -1,6 +1,6 @@
 <header id="header" class="hero-nav-overlay">
 
-    <nav class="navbar navbar-expand-md navbar-dark bg-secondary px-50 px-md-0 z-index-500">
+    <nav class="navbar navbar-expand-md navbar-dark bg-yellow px-50 px-md-0 z-index-500">
         <div class="container">
             <div class="nav-logo">
                 <a href="<?php echo esc_url(home_url('/')); ?>">
@@ -32,7 +32,7 @@
 </header>
 
 <div id="scrollingNav" class="hero-nav-overlay">
-    <nav class="navbar navbar-expand-md navbar-dark bg-secondary px-50 px-md-0">
+    <nav class="navbar navbar-expand-md navbar-dark bg-yellow px-50 px-md-0">
         <div class="container">
             <div class="nav-logo">
                 <a href="<?php echo esc_url(home_url('/')); ?>">
