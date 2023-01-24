@@ -7,7 +7,7 @@
     </section>
     <section class="py-2 bg-secondary">
         <div class="container text-center text-lg-left">
-            <div class="row justify-content-around text-white">
+            <div class="row justify-content-around text-primary">
                 <div class="col-lg-3 px-4 px-md-0">
                     <img src="<?php bloginfo('template_url'); ?>/images/logo.svg"
                          alt="<?php bloginfo('name'); ?> - Logo"

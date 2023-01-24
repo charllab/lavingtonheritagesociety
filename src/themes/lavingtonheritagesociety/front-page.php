@@ -97,7 +97,7 @@ $teams = $about['teams']; ?>
                                             <div class="px-2 px-md-1 pb-1">
                                                 <img src="<?php echo esc_attr($member['photo']['sizes']['profile']); ?>"
                                                      alt="<?php echo esc_attr($member['full_name']); ?>"
-                                                     class="rounded-circle img-fluid d-block mb-50 profile-img mx-auto">
+                                                     class="rounded-circle img-fluid mb-50 profile-img mx-auto d-none">
                                                 <p class="h6 text-white mb-0"><?php echo esc_attr($member['full_name']); ?></p>
                                                 <?php if ($member['position']): ?>
                                                     <p class="small"><?php echo esc_attr($member['position']); ?></p>
