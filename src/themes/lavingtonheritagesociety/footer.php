@@ -33,7 +33,7 @@
                     </p>
                     <a href="<?php echo the_field('footer_button_link', 'options'); ?>"
                        target="_blank"
-                       class="btn btn-light">
+                       class="btn btn-secondary">
                         <?php echo the_field('footer_button_label', 'options'); ?>
                     </a>
                 </div>
